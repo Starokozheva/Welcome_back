@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link type="image/x-icon" href="icons8-plant.png" rel="shortcut icon">
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&family=Roboto:wght@300;400;700&display=swap');
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family: 'Roboto', sans-serif;
+      }
+      .left,
+      .right {
+        width: 50%;
+        height: 100%;
+        position: absolute;
+      }
+      
+      .right {
+        left: 50%;
+        top: 0;
+      }
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      figure {
+        height: 100%;
+        line-height: 0;
+      }
+
+      .left {
+        text-align: center;
+        background: #beaca0;  
+      }
+      h1 {
+        padding-bottom: 3px;
+        padding-top: 200px;
+      }
+      .pad {
+        padding-bottom: 17px;
+      }
+      input {
+        padding: 10px 85px;
+        border-radius: 6px;
+        border-width: 1px;
+        text-align: center;
+      }
+      h4 {
+        padding-bottom: 7px;
+        padding-top: 18px;
+      }
+      p {
+        padding-top: 25px;
+      }
+      button {
+        color: white;
+        background: #1e2f4b;
+        padding: 10px 145px;
+        border-radius: 6px;
+      }
+      a {
+        text-decoration: none;
+        padding-left: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="left">
+      <h1>Welcome back</h1>
+
+      <h4 class="pad">Welcome back! Please enter your details.</h4>
+
+      <form>
+        <h4>Email</h4>
+
+        <input type="email" placeholder="Enter your email" />
+
+        <h4>Password</h4>
+
+        <input type="password" placeholder="Enter your password" />
+
+        <p>
+          <input type="checkbox">
+          Rememder for 30 days
+          <a href="">Forgot password</a>
+      </p>
+
+        <p>
+          <button>Sing in</button>
+        </p>
+      </form>
+    </div>
+
+    <div class="right">
+      <figure>
+        <img
+          src="https://images.unsplash.com/photo-1611175694989-4870fafa4494?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=674&q=80"
+          alt=""
+        />
+      </figure>
+    </div>
+  </body>
+</html>
